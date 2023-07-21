@@ -1,17 +1,21 @@
 {
   "dependencies": {
+    "express": "^4.18.2",
     "json-server": "^0.17.3"
   },
   "scripts": {
     "start": "node server.js",
-    "serve-json":"json-server --watch db.json"
+    "devStart":"nodemon server.js",
+    "serve-json": "json-server --watch db.json"
   },
   "name": "ggit-server",
   "description": "Server for the GirlsGoIT summer camp participants to practice making HTTP calls with Axios.",
   "version": "1.0.0",
   "main": "server.js",
-  "devDependencies": {},
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
 }

@@ -1,27 +1,11 @@
 {
-    "users":[
-        {
-            "id":1,
-            "name": "Bianca",
-            "posts":[
-                {
-                    "id":1,
-                    "mood":"happy",
-                    "date":"",
-                    "title":"",
-                    "content":""
-                }
-            ]
-        }
-    ],
-    "posts":[
-        {
-            "id":1,
-            "userId":1,
-            "mood":"happy",
-            "date":"",
-            "title":"",
-            "content":""
-        }
-    ]
+  "posts": [
+    {
+      "id": 1,
+      "username": "Bianca",
+      "mood": "excited",
+      "title": "We're working with API calls today!",
+      "content": ""
+    }
+  ]
 }

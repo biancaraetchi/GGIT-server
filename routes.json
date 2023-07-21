@@ -1,4 +1,0 @@
-{
-    "/users/:userId/posts" : "/posts?userId=userId",
-    "/users/:userId/posts/:postId" : "/posts?userId=userId&id=postId"
-}
